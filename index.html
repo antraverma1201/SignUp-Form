@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>SignUp</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <div class="form-section">
+          <h1 class="heading">SignUp</h1>
+          <div class="input-container">
+            <label for="">First Name:</label>
+            <input type="text" placeholder="Your first name" class="fn" />
+          </div>
+          <div class="input-container">
+            <label for="">Last Name:</label>
+            <input type="text" placeholder="Your Last name" class="ln" />
+          </div>
+          <div class="input-container">
+            <label for="">Email Address:</label>
+            <input
+              type="email"
+              placeholder="example@gmail.com"
+              class="emailid"
+            />
+          </div>
+          <div class="input-container">
+            <label for="">Password:</label>
+            <input type="password" placeholder="*****" class="pass" />
+          </div>
+          <div class="input-checkbox">
+            <input type="checkbox" name="terms" value="condition" class="terms" />
+            <label for="terms">I accept terms and condition</label><br />
+          </div>
+          <div class="btn-input">
+            <button class="btn-submit">Submit</button>
+          </div>
+        </div>
+      </form>
+      <div class="message">
+        <h4 class="success-msg">Form submitted successfully!!!</h4>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
